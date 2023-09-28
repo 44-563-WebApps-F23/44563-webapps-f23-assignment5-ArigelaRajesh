@@ -50,7 +50,7 @@ because we have used the col-md class, which is primarily designed for medium-si
 <img src="LincolnCity.jpg" class="img-thumbnail" alt="Lincoln City" height="325"  width="325"/>
 </div>
 <br>
-<table class="table table-striped table-hover table-bordered caption-top">
+<table class="table table-striped table-hover table-sm  table-bordered caption-top">
   <caption><b>Below Table consists of Letter, City, River and Tree</b></caption>
   <thead class="table-dark">
     <tr>
@@ -61,37 +61,37 @@ because we have used the col-md class, which is primarily designed for medium-si
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="table-success">
       <th scope="row">A</th>
       <td>Atlanta</td>
       <td>Ahnapee</td>
       <td>Apple</td>
     </tr>
-    <tr>
+    <tr class="table-warning">
       <th scope="row">R</th>
       <td>Richmond</td>
       <td>Ruby</td>
       <td>Redbud</td>
     </tr>
-    <tr>
+    <tr class="table-success">
       <th scope="row">I</th>
       <td>Irving</td>
       <td>Iditarod</td>
       <td>Inkwood</td>
     </tr>
-    <tr>
+    <tr class="table-warning">
       <th scope="row">G</th>
       <td>Garland</td>
       <td>Gakona</td>
       <td>Garjan</td>
     </tr>
-    <tr>
+    <tr class="table-success">
       <th scope="row">E</th>
       <td>Elizabeth</td>
       <td>Ecorse</td>
       <td>Ebony</td>
     </tr>
-    <tr>
+    <tr class="table-warning">
       <th scope="row">L</th>
       <td>Lincoln</td>
       <td>Lackawanna</td>
@@ -99,5 +99,38 @@ because we have used the col-md class, which is primarily designed for medium-si
     </tr>                      
   </tbody>
 </table>
+<label>Buttons</label><br>
+<button class="btn">A</button>
+<button class="btn">R</button>
+<button class="btn">I</button>
+<button class="btn">G</button>
+<button class="btn">E</button>
+<button class="btn">L</button>
+<br>
+<label>Button Groups</label><br>
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group me-2" role="group" aria-label="3 letters">
+    <button type="button" class="btn btn-success">A</button>
+    <button type="button" class="btn btn-success">I</button>
+    <button type="button" class="btn btn-success">L</button>
+  </div>
+  <div class="btn-group me-2" role="group" aria-label="2 letters">
+    <button type="button" class="btn btn-warning">R</button>
+    <button type="button" class="btn btn-warning">E</button>
+  </div>
+  <div class="btn-group me-2" role="group" aria-label="2 letters">
+    <button type="button" class="btn btn-danger">G</button>
+    </div>
+</div>
+<br>
+<button class="dropdown-toggle btn btn-primary" id="dropdownbutton" type="button" data-bs-toggle="dropdown"
+  aria-expanded="false">
+  Dropdown
+</button>
+<div class="dropdown-menu" style="background-color:rgb(245, 179, 219);">
+  <a href="basic.html" class="dropdown-item">Basic page</a>
+  <a href="advanced.html" class="dropdown-item">Advanced page</a>
+</div>
+<br><br>
 </body>
 </html>
