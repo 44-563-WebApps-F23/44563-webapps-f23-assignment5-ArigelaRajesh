@@ -13,6 +13,26 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="cities.html">A Few Cities</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarcities">
+        <ul class="navbar-nav me-auto"> 
+          <li class="nav-item">
+            <a class="nav-link" href="basic.html" target="_blank">Basic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="advanced.html" target="_blank">Advanced</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 <h1>Visit cities with Rajesh Arigela</h1><br>
 <div class="container">
   <div class="row">
@@ -100,12 +120,12 @@ because we have used the col-md class, which is primarily designed for medium-si
   </tbody>
 </table>
 <label>Buttons</label><br>
-<button class="btn">A</button>
-<button class="btn">R</button>
-<button class="btn">I</button>
-<button class="btn">G</button>
-<button class="btn">E</button>
-<button class="btn">L</button>
+<button class="btn" style="border: 2px solid rgba(209, 10, 10, 0.671);">A</button>
+<button class="btn" style="border: 2px solid rgb(28, 218, 11);">R</button>
+<button class="btn" style="border: 2px solid rgb(204, 221, 11);">I</button>
+<button class="btn" style="border: 2px solid rgb(216, 18, 231);">G</button>
+<button class="btn" style="border: 2px solid rgb(17, 197, 247);">E</button>
+<button class="btn" style="border: 2px solid rgb(30, 13, 223);">L</button>
 <br>
 <label>Button Groups</label><br>
 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
@@ -132,5 +152,55 @@ because we have used the col-md class, which is primarily designed for medium-si
   <a href="advanced.html" class="dropdown-item">Advanced page</a>
 </div>
 <br><br>
+<form>
+  <div class="mb-3 form-group">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3 form-group">
+    <label for="City" class="form-label">City</label>
+    <input type="text" class="form-control" id="City" aria-describedby="City" placeholder="Enter your city">
+  </div>
+  <div class="mb-3 form-check">
+    <label for="formcheck" class="check-label">Sign up for newsletter?</label>
+    <input type="checkbox" class="form-check-input" id="formcheck" aria-describedby="Check">
+  </div>
+  <button class="btn btn-success" type="Submit">Submit</button>
+</form>
+<br><br>
+<div class="row">
+  <div class="card me-2" style="width: 18rem;">
+    <img src="Atlanta.jpg" class="card-img-top" alt="Atlanta">
+    <div class="card-body">
+      <h6>Atlanta</h6>
+      <p class="card-text">Atlanta is the capital and most populous city of the U.S. state of Georgia. 
+        It is the seat of Fulton County, although a portion of the city extends into neighboring DeKalb County. 
+        With a population of 498,715 living within the city limits, it is the eighth most populous city in the 
+        Southeast and 38th most populous city in the United States according to the 2020 U.S. census.</p>        
+        <a href="https://en.wikipedia.org/wiki/Atlanta" class="btn btn-success">More Info</a>
+    </div>
+  </div>
+  <div class="card me-2" style="width: 18rem;">
+    <img src="Irving.jpg" class="card-img-top" alt="Irving">
+    <div class="card-body">
+      <h6>Irving</h6>
+      <p class="card-text">Irving is a city in the U.S. state of Texas. Located in Dallas County, it is also an inner ring suburb of Dallas. 
+        The city of Irving is part of the Dallas–Fort Worth metroplex. According to a 2019 estimate from the United States Census Bureau, 
+        the city population was 239,798, making it the thirteenth-most populous city in Texas, and 93rd most populous city in the U.S.</p>
+      <a href="https://en.wikipedia.org/wiki/Irving,_Texas" class="btn btn-success">More Info</a>
+    </div>
+  </div>
+  <div class="card me-2" style="width: 18rem;">
+    <img src="LincolnCity.jpg" class="card-img-top" alt="Lincoln">
+    <div class="card-body">
+      <h6>Lincoln</h6>
+      <p class="card-text">Lincoln City was incorporated on March 3, 1965, uniting the cities of Delake, Oceanlake and Taft, and the unincorporated communities of Cutler City and Nelscott. 
+        These were adjacent communities along U.S. Route 101, which serves as Lincoln City's main street. 
+        The name "Lincoln City" was chosen from contest entries submitted by local school children. </p>
+      <a href="https://en.wikipedia.org/wiki/Lincoln_City,_Oregon" class="btn btn-success">More Info</a>
+    </div>
+  </div>
+</div>
 </body>
 </html>
